@@ -1,0 +1,7 @@
+ES_STARTUP_SLEEP_TIME=5
+ES_HOME=/usr/share/elasticsearch
+LOG_DIR=/var/log/elasticsearch
+DATA_DIR=/var/lib/elasticsearch1
+WORK_DIR=/tmp/elasticsearch
+ES_USER=elasticsearch
+ES_PATH_CONF=/etc/elasticsearch
