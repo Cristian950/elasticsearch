@@ -5,3 +5,4 @@ DATA_DIR=/var/lib/elasticsearch1
 WORK_DIR=/tmp/elasticsearch
 ES_USER=elasticsearch
 ES_PATH_CONF=/etc/elasticsearch
+ES_JAVA_OPTS="-Djna.tmpdir=/var/lib/elasticsearch1/tmp"
