@@ -1,7 +1,6 @@
 server.port: 5601
 server.host: "dcex1441es1srv1"
 elasticsearch.hosts: ["http://dcex1441es1srv1:9200"]
-
-elasticsearch.username: "kibana_system"
-elasticsearch.password: ""
+#elasticsearch.username: "kibana_system"
+#elasticsearch.password: ""
 
