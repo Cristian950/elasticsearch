@@ -1,6 +1,22 @@
 server.port: 5601
-server.host: "dcex1441es1srv1"
-elasticsearch.hosts: ["http://dcex1441es1srv1:9200"]
+server.host: "***.gfk.com"
+elasticsearch.hosts: "http://***:9200"
 #elasticsearch.username: "kibana_system"
-#elasticsearch.password: ""
+#elasticsearch.password: "***"
+
+###################################################
+###HTTP encryption between Kibana and ElasticSearch
+###################################################
+#xpack.encryptedSavedObjects.encryptionKey: "***"
+#xpack.security.encryptionKey: "***"
+#xpack.security.session.idleTimeout: "1h"
+#xpack.security.session.lifespan: "30d"
+#elasticsearch.ssl.truststore.path: "/etc/kibana/certs/http.p12"
+#logging.dest: /var/log/kibana/kibana.log
+
+####################################################
+###HTTP encryption between Kibana and client browser
+####################################################
+#server.ssl.keystore.path: "/etc/kibana/certs/itsapp-es1.elasticsearch.gfk.com.pfx"
+#server.ssl.enabled: true
 
