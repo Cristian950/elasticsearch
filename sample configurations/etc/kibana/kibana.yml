@@ -1,22 +1,21 @@
 server.port: 5601
-server.host: "***.gfk.com"
-elasticsearch.hosts: "http://***:9200"
-#elasticsearch.username: "kibana_system"
-#elasticsearch.password: "***"
+server.host: "dcex1441es1srv1.gfk.com"
+elasticsearch.hosts: "https://dcex1441es1srv1.gfk.com:9200"
+elasticsearch.username: "kibana_system"
+elasticsearch.password: "***"
 
-###################################################
-###HTTP encryption between Kibana and ElasticSearch
-###################################################
-#xpack.encryptedSavedObjects.encryptionKey: "***"
-#xpack.security.encryptionKey: "***"
+########################################################
+###Encrypt HTTP traffic between Kibana and ElasticSearch
+########################################################
+#xpack.encryptedSavedObjects.encryptionKey: "7CPUu3px0cP88DYkw5t611a82xl6R7j9"
+#xpack.security.encryptionKey: "7CPUu3px0cP88DYkw5t611a82xl6R7j9"
 #xpack.security.session.idleTimeout: "1h"
 #xpack.security.session.lifespan: "30d"
 #elasticsearch.ssl.truststore.path: "/etc/kibana/certs/http.p12"
 #logging.dest: /var/log/kibana/kibana.log
 
-####################################################
-###HTTP encryption between Kibana and client browser
-####################################################
+########################################################
+###Encrypt HTTP traffic between Kibana and client browser
+########################################################
 #server.ssl.keystore.path: "/etc/kibana/certs/itsapp-es1.elasticsearch.gfk.com.pfx"
 #server.ssl.enabled: true
-
